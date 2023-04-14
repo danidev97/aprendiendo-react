@@ -22,7 +22,7 @@ export function TwitterCard({children, userName}){
             <div className='tw-followCard-info'>
                 <strong>{children}</strong>
                 <span className='tw-followCard-infoUserName'>
-                    {userName}
+                    @{userName}
                 </span>
             </div>      
             </header>
